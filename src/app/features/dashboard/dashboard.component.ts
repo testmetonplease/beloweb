@@ -4,7 +4,7 @@ import { Observable, Subject } from 'rxjs';
 import { map, takeUntil } from 'rxjs/operators';
 // import { TransferHttp } from '../../modules/transfer-http/transfer-http';
 
-import { AppState } from '../../reducers';
+import { AppState } from '../../store/reducers';
 import { Store } from '@ngrx/store';
 import { User } from '../../user/user.model';
 

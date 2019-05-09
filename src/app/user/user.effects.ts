@@ -10,7 +10,7 @@ import {
   LogoutSuccess,
   UserActionTypes
 } from './user.actions';
-import { AppState } from '../reducers';
+import { AppState } from '../store/reducers';
 import { UserService } from './user.service';
 
 @Injectable()

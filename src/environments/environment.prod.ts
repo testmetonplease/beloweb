@@ -1,3 +1,5 @@
 export const environment = {
-  production: true
+  appName: 'Belocom Web',
+  production: true,
+  i18nPrefix: '',
 };

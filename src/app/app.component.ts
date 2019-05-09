@@ -5,7 +5,7 @@ import { Store, select } from '@ngrx/store';
 import { views } from './app-nav-views';
 import { MOBILE } from './services/constants';
 
-import * as fromRoot from './reducers';
+import * as fromRoot from './store/reducers';
 import { TransferState } from '@angular/platform-browser';
 import { environment } from 'src/environments/environment';
 

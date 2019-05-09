@@ -1,7 +1,7 @@
-import { AppState } from './../../reducers/index';
+import { AppState } from './../../store/reducers/index';
 
 import { LazyActions, LazyActionTypes } from './lazy.actions';
-import * as fromRoot from '../../reducers';
+import * as fromRoot from '../../store/reducers';
 
 export interface LazyState {
     counter: number;

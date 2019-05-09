@@ -12,9 +12,9 @@ import { storeFreeze } from 'ngrx-store-freeze';
 import { storeLogger } from 'ngrx-store-logger';
 import { routerReducer, RouterReducerState, RouterStateSerializer } from '@ngrx/router-store';
 import * as fromRouter from '@ngrx/router-store';
-import { STORE_DEV_TOOLS } from '../../constants';
+import { STORE_DEV_TOOLS } from '../../../constants';
 
-import * as fromUser from '../user/user.reducer';
+import * as fromUser from '../../user/user.reducer';
 
 export interface RouterStateUrl {
   url: string;
